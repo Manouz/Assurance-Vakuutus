@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(15, 20, 39, 1);
+ 
+}
+
+.con_1{
+    
+    position: relative;
+    align-items: center;
+}
+
+.con_1 p{
+    background-color: aqua;
+    position: relative;
+    font-family: 'Martel', serif;
+    font-size: 100px;
+    color: white;
+
+
+}
+label{
+    position: relative; 
+    display: flex;
+    align-content: center;
+    font-family: 'Martel', serif;
+    font-size: small;
+    color: white;
+}
+#champs{    
+    position :absolute;
+    
+}
+div{
+    background-color: #fff;
+    display: flex;
+    align-content: center;
+}
+#ins{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 1);
+    position: absolute; 
+    text-decoration: none;   
+    top: 25em;
+    left: 30em;
+    font-family: 'Martel', serif;
+    font-size: large;
+    width: 9em;
+    opacity: 0.4;
+    color: white;
+}
