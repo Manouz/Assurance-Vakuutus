@@ -7,5 +7,23 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+.first{
+    position: relative;
+    background-color: rgba(15, 20, 39, 1);
+    height: 13em;
+    width: 40em;
+}
+.first .barreinfo img:first-child {
+    position: relative;
+    border-radius: 10em;
+    width: 11em;
+    height: 11em;
+    left: 1em;
+    top: 1em;
+    
+
+   
+ 
+}
 
 
