@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,17 +14,86 @@ body{
     height: 13em;
     width: 40em;
 }
-.first .barreinfo img:first-child {
+
+.first .barreinfo #un{
     position: relative;
     border-radius: 10em;
     width: 11em;
     height: 11em;
     left: 1em;
     top: 1em;
-    
 
-   
- 
 }
-
-
+.first .barreinfo #deux{
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    background-color: rgba(47, 52, 67, 1);
+    top:4em ;
+    left:27em ;
+}
+.first .barreinfo #trois{
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    background-color: rgba(47, 52, 67, 1);
+    top: 4em;
+    left:33em ;
+}
+.seconde{
+position: relative;
+width: 40em;
+height: 73.53em;
+}
+.seconde img{
+    position: absolute;
+    width: 36em;
+    height: 20em;
+    z-index: -100;    
+   }
+   .corpspacceuil{
+    position: relative;
+    width: 36em;
+    height: 20em;
+    left: 1.9em;
+    top: 1.8em;
+    background-color: rgba(47, 52, 67, 0.31);
+   }
+   
+   p{
+    position: absolute;
+    font-family: 'Martel', serif;
+    font-size: 1.2em;
+    letter-spacing: -0.05em;
+    text-align: right;
+    color: white;
+   }
+.texte1 {
+    position: relative;
+    /* border-bottom: 0.02em; */
+    top: 6em;
+    left: 2em;
+    width: 36em;
+    height: 20em;
+}
+#titre{
+    font-family: 'Martel', serif;
+    color: rgba(255, 34, 34, 0.54);
+    border-bottom: 0.1em solid  rgba(1, 226, 188, 1);
+    width: 15em;
+    left: 2.6em;
+   }
+#texte{
+    position:absolute;
+    top: 3em;
+    color: black;
+    text-indent: 0.2em each-line;
+}
+.texte2 {
+    position: relative;
+    border-bottom: 0.02em;
+    top: 8em;
+    left: 2em;
+    width: 36em;
+    height: 20em;
+}

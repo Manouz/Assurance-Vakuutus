@@ -43,7 +43,8 @@ img{
         color: white;
         font-size: xxx-large;
         left: 3em;
-        border-bottom: 1 solid rgba(1, 226, 188, 1) ;
+        border-bottom: 0.05em solid rgba(1, 226, 188, 1) ;
+        width: 2.5em;
     }
     /* .con p:nth-child(2){
         position: relative;
@@ -53,10 +54,11 @@ img{
     } */
     .con p:last-child{
         position: absolute;
-        top: 18em;
+        top: 16em;
         font-family: 'Martel', serif;
         font-size: 1.5em;
-        width: 25em;
+        width: 24.7em;
+        right: -1.1em;
     }
 .ensemble{
     position: relative;
@@ -64,26 +66,31 @@ img{
     width: 22em;
     height: 3em;
 }
-.ensemble label{
+.ensemble label:first-child{
+    position: absolute;
     color: white;
-    font-size: large;
     font-family: 'Martel', serif;
     font-size: x-large;
-    width: 10em;
+    width: 23em;
+    border-bottom: 0.05em solid;
 }
-/* #in{
+
+.ensemble label:last-child{
+    position: absolute;
+    color: white;
     font-family: 'Martel', serif;
-    border-bottom: 1 solid white;
-
-
-} */
-    p a{
+    font-size: x-large;
+    width: 23em;
+    border-bottom: 0.05em solid;
+    top: 5em;
+}
+p a{
         text-decoration: none;
         color: rgba(1, 226, 188, 1);
         top: 10em;
-    }
+}
     
-    p a:nth-child(2){
+p a:nth-child(2){
         text-decoration: none;
         color:rgba(255,255, 255, 0.47);
     }
@@ -106,16 +113,4 @@ img{
             font-size: xxx-large;
             width: 9em;
 }
-
-input #email{
-    position: absolute;
-    border-bottom: 10 solid white;
-    margin: 0em;
-    left: 3em;
-}
-
-.trait{
-    border-top: 3em solid rgba(1, 226, 188, 1)d;
-    width : 200px;
-    }    
         

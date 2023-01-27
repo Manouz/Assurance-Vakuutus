@@ -23,7 +23,14 @@ body{
     top: 1em;
 
 }
-
+.first .barreinfo #deux{
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    background-color: rgba(47, 52, 67, 1);
+    top:4em ;
+    left:27em ;
+}
 .first .barreinfo #trois{
     position: absolute;
     width: 5em;
@@ -32,12 +39,8 @@ body{
     top: 4em;
     left:33em ;
 }
-.seconde{}
-.seconde img{ 
-        position: absolute;
-        width: 5em;
-        height: 5em;
-        background-color: rgba(47, 52, 67, 1);
-        top:8em ;
-        left:27em ;  
-}
+.seconde{
+    position: relative;
+    width: 40em;
+    height: 73.53em;
+    }
