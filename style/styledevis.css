@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 body{
     background-color: rgb(255, 255, 255);
@@ -43,17 +43,15 @@ body{
     position: relative;
     width: 40em;
     height: 73.53em;
-    /* background-color: rgba(47, 52, 67, 0.31); */
-
     }
-    .seconde 
+    .seconde
     img{
         position: absolute;
         top:8em ;
         width: 40em;
         height:40em ;
     }
-  
+
     .btn{
         position: absolute;
         top: 27em;
@@ -63,12 +61,12 @@ body{
         position: relative;
         width: 40em;
         height: 3em;
-        
+
     }
     #aa{
         position: absolute;
         top: 1em;
-        
+
 
     }
 
@@ -80,7 +78,7 @@ body{
             color: black;
             font-size: xxx-large;
             top: 0.2em;
-            left: 3em;
+            left: 1.5em;
 
         }
         #deuxieme_a{
@@ -92,20 +90,25 @@ body{
             position: absolute;
             top: 18em;
             left: 3.5em;
-            
+
             margin: 0px;
             padding: 58px;
             background-color: rgba(217, 217, 217, 0.88);
             color: rgba(55, 61, 75, 1);
             font-size: xxx-large;
             width: 6.6em;
-            
+
             text-align: center;
-        
+
         }
         .fa-chevron-left {
-            font-size: 93px;
+            position: absolute;
+            font-size: 100px;
+            left: 0.4em;
+            top: 0.1em;
         }
-    
 
-  
+
+
+
+
