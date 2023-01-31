@@ -32,12 +32,62 @@ body{
     top: 4em;
     left:33em ;
 }
-.seconde{}
-.seconde img{ 
+.seconde{
+    position: relative;
+    width: 40em;
+    height: 73.53em;
+    }
+.seconde .entete{
+        position: relative;
+        /* top: 2em; */
+        width: 40em;
+        height: 8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.fa-chevron-left {
+    position: absolute;
+    font-size: 100px;
+    left: 0.4em;
+    top: 0.1em;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .seconde img{ 
         position: absolute;
         width: 5em;
         height: 5em;
         background-color: rgba(47, 52, 67, 1);
         top:8em ;
         left:27em ;  
+} */
+.entete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.entete #premier_a{
+    position: absolute;
+    border-bottom: 0.05em solid rgba(0, 255, 209, 1);
+    width: 4.7em;
+    text-decoration: none;
+    color: black;
+    font-size: xxx-large;
+    top: 1.4em;
+    left: 1.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    position: absolute;
+    font-family: 'Martel', serif;
+    font-size: 3em;
+    left: 1.7em;
+
+
+
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -44,3 +46,108 @@ body{
     width: 40em;
     height: 73.53em;
     }
+    .seconde .entete{
+        position: relative;
+        top: 2em;
+        width: 40em;
+        height: 8em;
+    }
+    .fa-chevron-left {
+        position: absolute;
+        font-size: 100px;
+        left: 0.4em;
+        top: 0.1em;
+        color: black;
+    }
+
+    .entete #premier_a{
+        position: absolute;
+        border-bottom: 0.05em solid rgba(0, 255, 209, 1);
+        width: 4.7em;
+        text-decoration: none;
+        color: black;
+        font-size: xxx-large;
+        top: 1.4em;
+        left: 1.7em;
+    }
+h2{
+        position: absolute;
+        font-family: 'Martel', serif;
+        font-size: 3em;
+        left: 1.7em;
+
+
+    }
+    .renseignements{
+        position: relative;
+        width: 40em;
+        height: 36em;
+        top: 1em;
+        font-family: 'Halant', serif;
+    }
+.renseignements .form1{
+    position: relative;
+    top: 3em;
+    left: 1.6em;
+    width: 37em;
+    height: 3em;
+    padding-bottom:3em ;
+    }
+.renseignements .form2{
+        position: relative;
+        top: 6em;
+        left: 1.6em;
+        width: 37em;
+        height: 3em;
+        padding-bottom:3em ;
+        }
+.renseignements .form3{
+            position: relative;
+            top: 9em;
+            left: 1.6em;
+            width: 37em;
+            height: 3em;
+            padding-bottom:3em ;
+            background-color:rgba(217, 217, 217, 0.29) ;
+            }
+.renseignements .form4{
+                position: relative;
+                top: 12em;
+                left: 1.6em;
+                width: 37em;
+                height: 3em;
+                padding-bottom:3em ;
+                }
+
+.renseignements input{
+    position: absolute;
+    top: 0.1em;
+    left: 6.3em;
+    padding: 15px;
+    width: 8.4em;
+    background-color: rgba(217, 217, 217, 0.16);
+    border: none;
+    font-family: 'Halant', serif;
+    font-size: 2.5em;
+    height: 1em;
+    display: flex;
+    align-items: center;
+  
+    
+
+}
+#troisieme_a {
+        font-family: 'Martel', serif;
+        text-decoration: none;
+        position: absolute;
+        top: 18em;
+        left: 2.8em;
+        margin: 0px;        
+        background-color: rgba(217, 217, 217, 0.58);
+        color: rgba(55, 61, 75, 1);
+        font-size: xxx-large;
+        width: 8em;
+        text-align: center;
+
+}
+   
