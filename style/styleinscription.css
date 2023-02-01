@@ -1,62 +1,110 @@
-                        @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
-                        * {
-                            margin: 0;
-                            padding: 0;
-                            box-sizing: border-box;
-                            text-decoration: none;
-                        }
-                        
-                        body {
-                            background-color: rgba(15, 20, 39, 1);
-                        }
-                        
-                        p {
-                            position: absolute;
-                            left: 1em;
-                            font-family: 'Martel', serif;
-                            font-size: 6rem;
-                            color: white;
-                            top: 2em;
-                            border-bottom: 2em white;
-                            width: 3em;
-                        }
-                        
-                        .con_1 {
-                            position: relative;
-                            align-items: center;
-                        }
-                        
-                        .con_1 p {}
-                        
-                        label {
-                            position: relative;
-                            display: flex;
-                            align-content: center;
-                            font-family: 'Martel', serif;
-                            font-size: small;
-                            color: white;
-                        }
-                        
-                        #champs {
-                            position: absolute;
-                        }
-                        
-                        div {
-                            background-color: #fff;
-                            display: flex;
-                            align-content: center;
-                        }
-                        
-                        #ins {
-                            text-align: center;
-                            background-color: rgba(255, 255, 255, 1);
-                            position: absolute;
-                            text-decoration: none;
-                            top: 25em;
-                            left: 30em;
-                            font-family: 'Martel', serif;
-                            font-size: large;
-                            width: 9em;
-                            opacity: 0.4;
-                            color: white;
-                        }
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@300;400;500;600&family=Martel:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: rgba(15, 20, 39, 1);
+}
+
+.entete {
+    position: relative;
+    width: 40em;
+    height: 18em;
+    /* background-color: RED; */
+}
+.entete a {
+    position: absolute;
+    border-bottom: 0.2em solid rgba(0, 255, 209, 1);
+    width: 12em;
+    height: 02em;
+    color: black;
+    top: 13em;
+    left: 6em;
+}
+h2{
+position: absolute;
+left: 1.5em;
+font-family: 'Martel', serif;
+font-size: 4em;
+color: white;
+top: 2.2em;
+border-bottom: 2em white;
+/* width: 3em; */
+}
+img{
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    background-color: rgba(47, 52, 67, 1);
+    width: 5em;
+    height: auto;
+}
+.renseignements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.renseignements .form1{
+    position: relative;
+     /* left: -2rem; */
+     width: 40em;
+      /* height: 100%; */
+      display: flex;
+      /* padding: 14px; */
+       align-items: center;
+       justify-content: center;
+        flex-direction: column;
+        /* padding: 50px; */
+         /* background-color: aqua;    */
+}
+.renseignements .form1 p{
+    position: relative;
+    top: 0.9em;
+    display: flex;
+    align-items: center;
+    width: 15.2em;
+    font-size: 2.3em;
+    height: 1.8;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* background-color:   rgba(217, 217, 217, 0.29); */
+    font-family: 'Halant', serif;
+    /* border-radius: 1.5em; */
+    /* text-indent: 1em; */
+    /* background-color: red; */
+}
+.renseignements input{
+    position: relative;
+    top: -0.6em;
+    left: 3em;
+    /* padding: 14px; */
+    width: 8em;
+    background-color: rgba(217, 217, 217, 0.29);
+    color: white;
+    border: none;
+    /* border-radius: 0em 1.5em 1.5em 0em; */
+    font-size: 2.5em;
+    height: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ins{
+    font-family: 'Martel', serif;
+    position: absolute;
+    bottom: 3em;
+    left: 3.9em;
+    /* margin: 0px; */
+    background-color: rgba(217, 217, 217, 0.16);
+    color: white;
+    font-size: 2.5em;
+    width: 9em;
+    text-align: center;
+    padding: 0.6em;
+}
+

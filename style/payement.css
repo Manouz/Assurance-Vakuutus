@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@300;400;500;600&family=Martel:wght@300;400;600&display=swap');
+  
 *{
     margin: 0;
     padding: 0;
@@ -53,65 +56,110 @@ body{
     .fa-chevron-left {
         position: absolute;
         font-size: 100px;
-        left: 0.4em;
-        top: 0.1em;
+        left: 0.7em;
+        top: 0.66em;
         color: black;
     }
     .entete #premier_a{
         position: absolute;
         border-bottom: 0.05em solid rgba(0, 255, 209, 1);
-        width: 4.7em;
+        width: 2.4em;
         text-decoration: none;
-        color: black;
+        color: black; 
         font-size: xxx-large;
-        top: 1.4em;
-        left: 1.7em;
+        top: 2.1em;
+        left: 2.3em;
     }
 h2{
     position: absolute;
     font-family: 'Martel', serif;
+    letter-spacing: 0.09em;
     font-size: 3em;
-    left: 1.7em;
-    top: 0.2em;
-
+    left: 2.3em;
+    top: 0.6em;
 
     }
     .renseignements{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;       
+    }
+    .renseignements .form1{
         position: relative;
-        width: 40em;
-        height: 36em;
-        top: 1em;
-        font-family: 'Halant', serif;
+         /* left: -2rem; */ 
+         width: 40em;
+          /* height: 100%; */
+          display: flex; 
+          /* padding: 14px; */
+           align-items: center; 
+           justify-content: center;
+            flex-direction: column; 
+            /* padding: 50px; */
+             /* background-color: aqua;    */
     }
     .renseignements .form1 p{
-        position: absolute;
+        position: relative;
+        top: 0.9em;
+        display: flex;
+        align-items: center; 
+        width: 15.2em; 
+        font-size: 2.3em;
+        height: 2.4em;
+        color: rgba(0, 0, 0, 1);
+        display: flex;
+        align-items: center;
+        background-color:   rgba(217, 217, 217, 0.29);
+        font-family: 'Halant', serif;
+        border-radius: 1.5em;
+        text-indent: 1em;
+        /* background-color: red; */
+    }
+    .renseignements input{
+        position: relative;
+        top: -1.4em;
+        left: 3em;
+        /* padding: 14px; */
+        width: 8em;
+        background-color: rgba(217, 217, 217, 0);
+        border: none;
+        border-radius: 0em 1.5em 1.5em 0em;
+        font-size: 2.5em;
+        height: 2.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #troisieme_a {
+    font-family: 'Martel', serif;
+    position: absolute;
+    bottom: 3em;
+    left: 4.5em;
+    /* margin: 0px; */
+    background-color: rgba(217, 217, 217, 0.58);
+    color: rgba(55, 61, 75, 1);
+    font-size: 2em;
+    /* width: 11em; */
+    /* text-align: center; */
+    padding: 0.5em;
+    }
+    /* .renseignements .form2 p{
+        position: relative;
         top: 0.1em;
         left: 0.1em;
         display: flex;
         align-items: center;
         padding: 14px;
-        width: 4.5em; 
+        width: 4.5em;       
         font-size: 2.5em;
         height: 1em;
         color: rgba(0, 0, 0, 1);
-        
-    }
-    .renseignements .form2 p{
-        position: absolute;
-        top: 0.1em;
-        left: 0.1em;
         display: flex;
         align-items: center;
-        padding: 14px;
-        width: 4.5em;
-        
-        font-size: 2.5em;
-        height: 1em;
-        color: rgba(0, 0, 0, 1);
-        
-    }
-    .renseignements .form3 p{
-        position: absolute;
+        justify-content: center;
+    } */
+    /* .renseignements .form3 p{
+        position: relative;
         top: 0.1em;
         left: 0.1em;
         display: flex;
@@ -120,10 +168,13 @@ h2{
         width: 6em;
         font-size: 2.5em;
         height: 1em;
-        color: rgba(0, 0, 0, 1);       
+        color: rgba(0, 0, 0, 1); 
+        display: flex;
+        align-items: center;
+        justify-content: center;      
     }
     .renseignements .form4 p{
-        position: absolute;
+        position: relative;
         top: 0.1em;
         left: 0.1em;
         display: flex;
@@ -133,19 +184,9 @@ h2{
         font-size: 2.5em;
         height: 1em;
         color: rgba(0, 0, 0, 1);
-        
-    }
-    .renseignements input{
-        position: absolute;
-        top: 0.1em;
-        left: 6.3em;
-        padding: 15px;
-        width: 8.4em;
-        background-color: rgba(217, 217, 217, 0.16);
-        border: none;
-        font-family: 'Halant', serif;
-        font-size: 2.5em;
-        height: 1em;
         display: flex;
-    }
-  
+        align-items: center;
+        justify-content: center;
+        
+    } */
+ 

@@ -1,5 +1,4 @@
-    @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@300;400;500;600&family=Martel:wght@300;400;600&display=swap');
     * {
         margin: 0;
         padding: 0;
@@ -31,7 +30,7 @@
         position: absolute;
         top: 30em;
         left: 1em;
-        background-color: black;
+        /* background-color: black; */
         height: 25em;
         width: 35em;
     }
@@ -45,12 +44,12 @@
         border-bottom: 0.05em solid rgba(1, 226, 188, 1);
         width: 2.5em;
     }
-    /* .con p:nth-child(2){
+    .con p:nth-child(2){
         position: relative;
         font-family: 'Martel', serif;
         color: white;
         font-size: large;
-    } */
+    }
     
     .con p:last-child {
         position: absolute;
@@ -124,13 +123,14 @@
     }
     
     .input {
-        font-size: 16px;
+        font-size: 3em;
         padding: 10px 10px 10px 5px;
         display: block;
-        width: 30em;
+        width: 11em;
         border: none;
-        border-bottom: 1px solid #a9f408;
+        border-bottom: 1px solid rgba(175, 183, 210, 1);
         background: transparent;
+      
     }
     
     .input:focus {
@@ -139,7 +139,7 @@
     
     label {
         color: #999;
-        font-size: 2EM;
+        font-size: 2em;
         font-weight: normal;
         position: absolute;
         pointer-events: none;
@@ -154,13 +154,13 @@
     .input:valid~label {
         top: -20px;
         font-size: 14px;
-        color: #5264AE;
+        color: rgba(175, 183, 210, 1);
     }
     
     .bar {
         position: relative;
         display: block;
-        width: 200px;
+        width: 2em;
     }
     
     .bar:before,
@@ -170,7 +170,7 @@
         width: 0;
         bottom: 1px;
         position: absolute;
-        background: #5264AE;
+        background: rgba(175, 183, 210, 1);
         transition: 0.2s ease all;
         -moz-transition: 0.2s ease all;
         -webkit-transition: 0.2s ease all;
@@ -205,7 +205,7 @@
     
     @keyframes inputHighlighter {
         from {
-            background: #5264AE;
+            background: rgba(175, 183, 210, 1);
         }
         to {
             width: 0;

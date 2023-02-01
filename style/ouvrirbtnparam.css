@@ -5,13 +5,15 @@
     
 }
 body{
-    background-color: rgb(255, 255, 255);
+    
+    /* background-color: rgba(224, 224, 224, 0.69); */
 }
 .first{
     position: relative;
-    background-color: rgba(15, 20, 39, 1);
+    /* background-color: rgba(15, 20, 39, 1); */
     height: 13em;
     width: 40em;
+    /* z-index: -100; */
 }
 
 .first .barreinfo #un {
@@ -41,6 +43,8 @@ body{
 }
 .seconde{
     position: relative;
+    top: -13em;
     width: 40em;
     height: 73.53em;
+    background-color: rgba(255, 0, 0, 0.085);
     }
