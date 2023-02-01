@@ -1,49 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-body{
-    background-color: rgba(15, 20, 39, 1);
-}
-.img1 {
-    
-    
-    position: relative;
-    top: 8em;
-    left: 1.5em;
-    width: 35em;
-    height: 21em;
-
-}
-img{
-    position: relative;
-    width: 32em;
-    left: 1.5em;
-    top: 0.7000000000000002em;
-    height: 19em;
-    border-radius: 175px;
-}
-
-.con{
-    position: absolute;
-    top: 30em;
-    left: 1em; 
-    /* background-color: black; */
-    height: 25em;
-    width: 35em;
+    @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .con p:first-child{
-
+    
+    body {
+        background-color: rgba(15, 20, 39, 1);
+    }
+    
+    .img1 {
+        position: relative;
+        top: 8em;
+        left: 1.5em;
+        width: 35em;
+        height: 21em;
+    }
+    
+    img {
+        position: relative;
+        width: 32em;
+        left: 1.5em;
+        top: 0.7000000000000002em;
+        height: 19em;
+        border-radius: 175px;
+    }
+    
+    .con {
+        position: absolute;
+        top: 30em;
+        left: 1em;
+        background-color: black;
+        height: 25em;
+        width: 35em;
+    }
+    
+    .con p:first-child {
         position: absolute;
         font-family: 'Martel', serif;
         color: white;
         font-size: xxx-large;
         left: 3em;
-        border-bottom: 0.05em solid rgba(1, 226, 188, 1) ;
+        border-bottom: 0.05em solid rgba(1, 226, 188, 1);
         width: 2.5em;
     }
     /* .con p:nth-child(2){
@@ -52,7 +51,8 @@ img{
         color: white;
         font-size: large;
     } */
-    .con p:last-child{
+    
+    .con p:last-child {
         position: absolute;
         top: 16em;
         font-family: 'Martel', serif;
@@ -60,57 +60,155 @@ img{
         width: 24.7em;
         right: -1.1em;
     }
-.ensemble{
-    position: relative;
-    top: 10em;
-    width: 22em;
-    height: 3em;
-}
-.ensemble label:first-child{
-    position: absolute;
-    color: white;
-    font-family: 'Martel', serif;
-    font-size: x-large;
-    width: 23em;
-    border-bottom: 0.05em solid;
-}
-
-.ensemble label:last-child{
-    position: absolute;
-    color: white;
-    font-family: 'Martel', serif;
-    font-size: x-large;
-    width: 23em;
-    border-bottom: 0.05em solid;
-    top: 5em;
-}
-p a{
+    
+    .ensemble {
+        position: relative;
+        top: 10em;
+        width: 22em;
+        height: 3em;
+    }
+    
+    .ensemble label:first-child {
+        position: absolute;
+        color: white;
+        font-family: 'Martel', serif;
+        font-size: x-large;
+        width: 23em;
+        border-bottom: 0.05em solid;
+    }
+    
+    .ensemble label:last-child {
+        position: absolute;
+        color: white;
+        font-family: 'Martel', serif;
+        font-size: x-large;
+        width: 23em;
+        border-bottom: 0.05em solid;
+        top: 5em;
+    }
+    
+    p a {
         text-decoration: none;
         color: rgba(1, 226, 188, 1);
         top: 10em;
-}
-    
-p a:nth-child(2){
-        text-decoration: none;
-        color:rgba(255,255, 255, 0.47);
     }
-.btncon{
+    
+    p a:nth-child(2) {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.47);
+    }
+    
+    .btncon {
         position: absolute;
-        background-color:white ;
+        background-color: white;
         top: 22em;
         left: 2em;
+    }
+    
+    .btncon a {
+        text-decoration: none;
+        position: absolute;
+        top: 15em;
+        left: 1.1em;
+        align-items: center;
+        margin: 0px;
+        padding: 44px;
+        background-color: rgba(217, 217, 217, 0.16);
+        color: white;
+        font-size: xxx-large;
+        width: 9em;
+    }
+    
+    .form {
+        position: relative;
+    }
+    
+    .input {
+        font-size: 16px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 30em;
+        border: none;
+        border-bottom: 1px solid #a9f408;
+        background: transparent;
+    }
+    
+    .input:focus {
+        outline: none;
+    }
+    
+    label {
+        color: #999;
+        font-size: 2EM;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 10px;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+    
+    .input:focus~label,
+    .input:valid~label {
+        top: -20px;
+        font-size: 14px;
+        color: #5264AE;
+    }
+    
+    .bar {
+        position: relative;
+        display: block;
+        width: 200px;
+    }
+    
+    .bar:before,
+    .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: #5264AE;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+    
+    .bar:before {
+        left: 50%;
+    }
+    
+    .bar:after {
+        right: 50%;
+    }
+    
+    .input:focus~.bar:before,
+    .input:focus~.bar:after {
+        width: 50%;
+    }
+    
+    .highlight {
+        position: absolute;
+        height: 60%;
+        width: 100px;
+        top: 25%;
+        left: 0;
+        pointer-events: none;
+        opacity: 0.5;
+    }
+    
+    .input:focus~.highlight {
+        animation: inputHighlighter 0.3s ease;
+    }
+    
+    @keyframes inputHighlighter {
+        from {
+            background: #5264AE;
         }
-.btncon a{
-            text-decoration: none;
-            position: absolute;
-            top: 15em;
-            left: 1.1em;
-            align-items: center;
-            margin: 0px;
-            padding: 44px;
-            background-color: rgba(217, 217, 217, 0.16);
-            color: white;
-            font-size: xxx-large;
-            width: 9em;
-}
-        
+        to {
+            width: 0;
+            background: transparent;
+        }
+    }
