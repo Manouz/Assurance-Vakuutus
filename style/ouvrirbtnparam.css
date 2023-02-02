@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-body{
-    
-    /* background-color: rgba(224, 224, 224, 0.69); */
+
+body {
+    background-color: rgba(224, 224, 224, 0.69);
 }
-.first{
+
+.first {
     position: relative;
-    /* background-color: rgba(15, 20, 39, 1); */
+    background-color: rgba(15, 20, 39, 1);
     height: 13em;
     width: 40em;
     /* z-index: -100; */
@@ -23,28 +23,30 @@ body{
     height: 11em;
     left: 1em;
     top: 1em;
+}
 
-}
-.first .barreinfo #deux{
-    position: absolute;
-    width: 5em;
-    height: 5em;
-    background-color: rgba(47, 52, 67, 1);
-    top:4em ;
-    left:27em ;
-}
-.first .barreinfo #trois{
-    position: absolute;
-    width: 5em;
-    height: 5em;
-    background-color: rgba(47, 52, 67, 1);
-    top: 4em;
-    left:33em ;
-}
-.seconde{
+.seconde {
     position: relative;
     top: -13em;
     width: 40em;
     height: 73.53em;
-    background-color: rgba(255, 0, 0, 0.085);
-    }
+    background-color: rgba(224, 224, 224, 0.69);
+}
+
+.seconde .ein {
+    position: absolute;
+    ;
+    top: -13em;
+    width: 26em;
+    left: 14em;
+    height: 73.53em;
+    background-color: rgba(55, 61, 75, 1);
+}
+
+.seconde .ein a #zwei {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    top: 15em;
+    left: 1em;
+}

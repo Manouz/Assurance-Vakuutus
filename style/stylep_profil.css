@@ -1,13 +1,15 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@300;400;500;600&family=Martel:wght@300;400;600&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-body{
+
+body {
     background-color: rgb(255, 255, 255);
 }
-.first{
+
+.first {
     position: relative;
     background-color: rgba(15, 20, 39, 1);
     height: 13em;
@@ -21,31 +23,33 @@ body{
     height: 11em;
     left: 1em;
     top: 1em;
-
 }
 
-.first .barreinfo #trois{
+.first .barreinfo #trois {
     position: absolute;
     width: 5em;
     height: 5em;
     background-color: rgba(47, 52, 67, 1);
     top: 4em;
-    left:33em ;
+    left: 33em;
 }
-.seconde{
+
+.seconde {
     position: relative;
     width: 40em;
     height: 73.53em;
-    }
-.seconde .entete{
-        position: relative;
-        /* top: 2em; */
-        width: 40em;
-        height: 8em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+}
+
+.seconde .entete {
+    position: relative;
+    /* top: 2em; */
+    width: 40em;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fa-chevron-left {
     position: absolute;
     font-size: 100px;
@@ -56,6 +60,8 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+
 /* .seconde img{ 
         position: absolute;
         width: 5em;
@@ -64,12 +70,14 @@ body{
         top:8em ;
         left:27em ;  
 } */
-.entete{
+
+.entete {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.entete #premier_a{
+
+.entete #premier_a {
     position: absolute;
     border-bottom: 0.05em solid rgba(0, 255, 209, 1);
     width: 4.7em;
@@ -82,12 +90,35 @@ body{
     align-items: center;
     justify-content: center;
 }
-h2{
+
+h2 {
     position: absolute;
     font-family: 'Martel', serif;
     font-size: 3em;
     left: 1.7em;
+}
 
+img {
+    position: absolute;
+    background-color: rgba(47, 52, 67, 0.84);
+    width: 8em;
+    height: auto;
+    left: 3em;
+}
 
+.or {
+    position: relative;
+    border-bottom: 0.05em gray;
+}
 
+#nom {
+    position: absolute;
+    font-size: xx-large;
+}
+
+#email {
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Martel', serif;
+    left: 4em;
 }
