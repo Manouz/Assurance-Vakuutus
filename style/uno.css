@@ -3,7 +3,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;  
+    text-decoration: none;  
 }
 body{
     position: relative;
@@ -99,7 +100,7 @@ body{
         color: black;
         font-size: 0.6em;
         font-family: 'Martel';
-        top: 7em;
+        top: 8.5em;
        
     }
     #quatree{
@@ -108,7 +109,17 @@ body{
         color: black;
         font-size: 0.6em;
         font-family: 'Martel';
-        top: 10em;
+        top: 11.8em;
+    }
+    #docc{
+        position: absolute;
+        width: 19em;  
+        color: black;
+        font-size: 0.6em;
+        font-family: 'Martel';
+        top: 6.5em;
+        left: 4em;
+        text-indent: 3em;
     }
 
   

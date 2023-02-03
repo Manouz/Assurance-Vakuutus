@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Habibi&family=Halant:wght@300;400;500;600&family=Martel:wght@300;400;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -42,24 +44,50 @@ body{
     position: relative;
     top: -13em;
     width: 40em;
-    height: 86.55em;
+    height: 88.8em;
     background-color: rgba(217, 217, 217, 0.69);
     }
-    .seconde .ein {
+    .seconde .pagecoloree {
         position: absolute;
         top: -13em;
         width: 26em;
         left: 14em;
-        height: 99.5em;
+        height: 101.8em;
         background-color: rgba(55, 61, 75, 1);
     }
-    .seconde .ein a #zwei {
+    .seconde .pagecoloree a #deux{
         position: absolute;
         width: 5em;
         height: 5em;
         top: 15em;
         left: 1em;
-    }
-    select{
+    } 
+    .seconde .pagecoloree .zwei{
         position: relative;
+        height: 5em;
+        top: 7em;
+        font-size: 4em;
+        font-family: 'Aleo', serif;
+        color: white;
+    }
+    .zwei #zweii{
+        position: absolute;
+        left: 1em;
+        color: white;
+    }
+    .zwei #zweii p{
+        position: absolute;
+        border-bottom: 0.03em solid rgba(0, 255, 209, 1);
+        width: 2.6em;
+    }
+    .zwei #zweiii{
+        position: absolute;
+        left: 1em;
+        color: white;
+    }
+    .zwei #zweiii p{
+        position: absolute;
+        border-bottom: 0.03em solid rgba(0, 255, 209, 1);
+        top: 2em;
+        width: 2.6em;    
     }

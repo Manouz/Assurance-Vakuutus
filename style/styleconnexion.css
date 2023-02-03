@@ -120,6 +120,8 @@
     
     .form {
         position: relative;
+        top: 8em;
+        left: 2em;
     }
     
     .input {
@@ -128,7 +130,7 @@
         display: block;
         width: 11em;
         border: none;
-        border-bottom: 1px solid rgba(175, 183, 210, 1);
+        border-bottom: 3px solid rgba(175, 183, 210, 1);
         background: transparent;
       
     }
@@ -138,7 +140,7 @@
     }
     
     label {
-        color: #999;
+        color: white;
         font-size: 2em;
         font-weight: normal;
         position: absolute;

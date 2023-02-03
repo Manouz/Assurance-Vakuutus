@@ -1,4 +1,5 @@
+font-family: 'Aleo', serif;
 font-family: 'Habibi', serif;
-  font-family: 'Halant', serif;
-  font-family: 'Martel', serif;
-  @import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@300;400;500;600&family=Martel:wght@300;400;600&display=swap');
+font-family: 'Halant', serif;
+font-family: 'Martel', serif;
+  @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;400&family=Habibi&family=Halant:wght@300;400;500;600&family=Martel:wght@300;400;600&display=swap');

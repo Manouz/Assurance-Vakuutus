@@ -90,6 +90,11 @@ h2 {
     top: 1em;
     font-family: 'Halant', serif;
 }
+.renseignements p{
+    font-family: 'Halant', serif;
+    font-size: 2.3em;
+}
+
 
 .renseignements .form1 {
     position: relative;
@@ -116,7 +121,7 @@ h2 {
     width: 37em;
     height: 3em;
     padding-bottom: 3em;
-    background-color: rgba(217, 217, 217, 0.29);
+    /* background-color: rgba(217, 217, 217, 0.29); */
 }
 
 .renseignements .form4 {
@@ -138,10 +143,11 @@ h2 {
     background-color: rgba(217, 217, 217, 0.16);
     border: none;
     font-family: 'Halant', serif;
-    font-size: 2.5em;
+    font-size: 2.3em;
     height: 1em;
     display: flex;
     align-items: center;
+    left: 6.5em;
 }
 
 #troisieme_a {

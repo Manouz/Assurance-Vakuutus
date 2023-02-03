@@ -4,18 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: rgb(255, 255, 255);
 }
-
 .first {
     position: relative;
     background-color: rgba(15, 20, 39, 1);
     height: 13em;
     width: 40em;
 }
-
 .first .barreinfo #un {
     position: relative;
     border-radius: 10em;
@@ -24,7 +21,6 @@ body {
     left: 1em;
     top: 1em;
 }
-
 .first .barreinfo #trois {
     position: absolute;
     width: 5em;
@@ -33,92 +29,107 @@ body {
     top: 4em;
     left: 33em;
 }
-
 .seconde {
     position: relative;
     width: 40em;
     height: 73.53em;
 }
-
 .seconde .entete {
     position: relative;
-    /* top: 2em; */
     width: 40em;
     height: 8em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .fa-chevron-left {
     position: absolute;
     font-size: 100px;
-    left: 0.4em;
-    top: 0.1em;
+    left: 0.5em;
+    top: 0.6em;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-
-/* .seconde img{ 
-        position: absolute;
-        width: 5em;
-        height: 5em;
-        background-color: rgba(47, 52, 67, 1);
-        top:8em ;
-        left:27em ;  
-} */
-
 .entete {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .entete #premier_a {
     position: absolute;
     border-bottom: 0.05em solid rgba(0, 255, 209, 1);
-    width: 4.7em;
+    width: 2em;
     text-decoration: none;
     color: black;
     font-size: xxx-large;
-    top: 1.4em;
+    top: 2em;
     left: 1.7em;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
 }
-
 h2 {
     position: absolute;
     font-family: 'Martel', serif;
     font-size: 3em;
     left: 1.7em;
 }
-
 img {
-    position: absolute;
-    background-color: rgba(47, 52, 67, 0.84);
-    width: 8em;
-    height: auto;
-    left: 3em;
+ 		position: absolute;
+ 		    background-color: rgba(47, 52, 67, 0.84);
+		    width: 9.8em;
+		    height: 10em;
+		    left: 9em; 		    top: 14em;
 }
-
 .or {
     position: relative;
-    border-bottom: 0.05em gray;
 }
-
+.or a{
+    position: absolute;
+    border-bottom: 0.1em solid black;
+    width: 35em;
+    top: 18em;
+    left: 2.5em;
+}
 #nom {
-    position: absolute;
-    font-size: xx-large;
+	font-family: 'Martel';
+	position: absolute;
+	font-size: 2.4em;
+	left: 8em;
+	top: 3em;
 }
-
-#email {
+#email {	    
     position: absolute;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'Martel', serif;
-    left: 4em;
+    left: 15em;
+    top: 7em;
+
+}
+input{
+    position: absolute;
+    left: 9em;
+    top: 13em;
+    width: 10em;
+    height: 1.8em;
+    display: flex;
+    font-size: 2em;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.16);
+    border: none;
+    text-indent: 0.2em;
+}
+.mdp{
+    position: absolute;
+    left: 2em;
+    top: 13em;
+    font-family: 'Halant', serif;
+    width: 7em;
+    height: 1.8em;
+    font-size: 2em;
+    color: rgba(47, 52, 67, 1);
+    text-indent: 0.7em;
 }

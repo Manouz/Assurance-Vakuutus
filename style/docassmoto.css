@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +13,11 @@ body{
     background-color: rgba(15, 20, 39, 1);
     height: 13em;
     width: 40em;
+    position: fixed;
+   scroll-behavior: auto;
+    z-index: 1;
+    /* transition: 5s;
+    background-position:center; */
 }
 
 .first .barreinfo #un {
@@ -43,4 +49,43 @@ body{
     position: relative;
     width: 40em;
     height: 73.53em;
+    background-position: top;
+    }
+    #premier_a{
+        position: absolute;
+        border-bottom: 0.05em solid rgba(0, 255, 209, 1);
+        width: 1em;
+        text-decoration: none;
+        color: black;
+        font-size: xxx-large;
+        top: 0.2em;
+        left: 1.5em;
+    }
+    .entête1{
+      position: relative;
+      width: 40em;
+      height: 7em;
+      background-color:rgba(217, 217, 217, 0.47);
+      top: 20em;
+    }
+    #image{
+        position: absolute;
+        top:0.1em; 
+        left:1em;
+        width: 6em;
+        height: 6em;
+    }
+    h2{
+        position: absolute;
+        top: 0.1em;
+        left: 4em;
+        font-family: 'Martel', serif;
+        font-size: xx-large;
+    }
+    .entête2{
+        position: relative;
+        top: 90em;
+      width: 40em;
+      height: 7em;
+      background-color:rgba(217, 217, 217, 0.47);
     }

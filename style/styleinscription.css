@@ -15,7 +15,7 @@ body {
     height: 18em;
     /* background-color: RED; */
 }
-.entete a {
+.entete a #lol{
     position: absolute;
     border-bottom: 0.2em solid rgba(0, 255, 209, 1);
     width: 12em;
