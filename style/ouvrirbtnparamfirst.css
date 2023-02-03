@@ -45,7 +45,7 @@ body{
     height: 86.55em;
     background-color: rgba(217, 217, 217, 0.69);
     }
-    .seconde .ein {
+    .seconde .pagecolorée {
         position: absolute;
         top: -13em;
         width: 26em;
@@ -53,13 +53,22 @@ body{
         height: 99.5em;
         background-color: rgba(55, 61, 75, 1);
     }
-    .seconde .ein a #zwei {
+    /* .seconde .pagecolorée a img{
+        position: absolute;
+        width: 5em;
+        height: 5em;
+        top: 15em;
+       color: black;
+        left: 1em;
+    }
+    .seconde .zwei {
         position: absolute;
         width: 5em;
         height: 5em;
         top: 15em;
         left: 1em;
     }
+   
     select{
         position: relative;
-    }
+    } */
